@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite this repository."
+type: software
+title: "Animal Valence Rank Fusion"
+version: 1.0.0
+date-released: 2026-10-18
+url: "https://github.com/wyyy5111/animal-valence-rank-fusion"
+repository-code: "https://github.com/wyyy5111/animal-valence-rank-fusion"
+license: MIT
+authors:
+  - family-names: Wang
+    given-names: Wenji
+    orcid: "https://orcid.org/0009-0004-4144-3470"
+  - family-names: Yang
+    given-names: Yiming
+    orcid: "https://orcid.org/0009-0004-1621-3366"
+  - family-names: Zhang
+    given-names: Dehua
+    orcid: "https://orcid.org/0000-0001-8623-8439"

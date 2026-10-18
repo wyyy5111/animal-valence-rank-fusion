@@ -1,0 +1,15 @@
+{
+  "task": "ungulate_valence",
+  "label_names": ["Negative", "Positive"],
+  "primary_metric": "macro_domain_uar",
+  "domain": "species",
+  "budgets": [0.1, 0.25, 0.5, 1.0],
+  "selection": {"candidate_sizes": [3, 4], "min_shared": 10},
+  "lowest_budget_prior_matching": true,
+  "archived_member_sets": {
+    "0.1": ["mlp_stack_s2", "perch_mlp", "s2_svm"],
+    "0.25": ["mil_beats", "mlp_stack_s2", "perch_mlp"],
+    "0.5": ["mlp_stack_s2", "perch_mlp", "s2_svm"],
+    "1.0": ["mlp_stack_s2", "perch_mlp", "s2_svm"]
+  }
+}

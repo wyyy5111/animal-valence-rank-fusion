@@ -1,0 +1,11 @@
+{
+  "task": "canine_valence",
+  "label_names": ["Negative", "Neutral", "Positive"],
+  "primary_metric": "macro_domain_uar",
+  "domain": "breed",
+  "budgets": [0.1, 0.25, 0.5, 1.0],
+  "selection": {"candidate_sizes": [3, 4], "min_shared": 10, "low_budget_validation_folds": true},
+  "full_budget_policy": "fixed_full_pool",
+  "full_budget_members": ["mfcc_svm", "mlp_stack3", "beats_linear", "perch_svm", "aves2_mlp", "cnn14_svm", "wavlmlarge_svm", "iter3plus_svm", "iter3plus_mlp", "ser_beats_arousal", "ser_iter3plus_arousal", "mil_iter3plus", "mil_dual", "eat_svm", "aves2eat_svm"],
+  "prior_matching": false
+}
